@@ -1,0 +1,57 @@
+.my-btn:hover{
+background-color: rgba(255, 138, 28, 0.692);
+border: none;
+color: white;
+
+}
+.book-btn{
+    background-color: rgb(246, 99, 13);
+    color: white;
+}
+.navbaar:hover{
+   border: 2px solid rgba(255, 150, 52, 0.705);
+   border-radius: 10px;
+   display: inline-block;
+   padding: 5px;
+   
+}
+.orange{
+    color: rgb(255, 138, 28);
+}
+.orange-food{
+    color: rgb(199, 73, 0);
+}
+.bg-my{
+    background-color: rgba(31, 29, 29, 0.904);
+    
+}
+.btn-food{
+    /* border: 2px solid rgba(218, 124, 16, 0.705); */
+    background-color: rgba(71, 67, 67, 0.425);
+    color:white ;
+    font-weight: 700;
+    
+}
+
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(255, 138, 28); /* The typwriter cursor */
+     white-space: nowrap;/* Keeps the content on a single line  */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 138, 28) }
+  }
